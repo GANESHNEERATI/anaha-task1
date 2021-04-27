@@ -1,0 +1,138 @@
+.main_card_container{
+ 
+    display: flex;
+    
+    justify-content: space-between !important;
+ 
+}
+
+.main_card_container_left{
+width: 800px;
+height: 300px;
+border:1px solid gray;
+border-radius: 10px;
+margin: 10px 5px;
+    
+
+}
+.main_card_container__top{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+   
+}
+.select_duration > select{
+    outline-width: 0;
+    border: none;
+}
+
+.main_card_container__bottom{
+    height: 200px;
+    width: 500px;
+    margin-left: 100px;
+
+}
+
+.main_card_container_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+   
+}
+.main_card_container_right__top
+{
+    height: 150px;
+    width: 
+    450px;
+    border:1px solid gray;
+    border-radius: 10px;
+ 
+    
+}
+.main_card_container_right__top >p {
+    margin-left: 10px;
+}
+
+.main_card_container_right_bottom{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.main_card_container_right_bottom__left{
+    height: 140px;
+    width: 150px;
+    border-radius: 10px;
+    border:1px solid gray;
+}
+
+
+.main_card_container_right_bottom__right{
+    height: 140px;
+    width: 280px;
+    border:1px solid gray;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.lab_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 10px;
+   
+    
+}
+.lab_cards{
+  height: 70px;
+  width: 150px;
+    
+
+}
+
+.lab_cards_top{
+ 
+    display: flex;
+    
+}
+.lab_cards_bottom{
+  
+    display: flex;
+    
+
+}
+
+#t-s{
+    font-size: small;
+}
+#t-c{
+    color: rgb(255, 123, 0);
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 80px;
+    height: 80px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    text-align: center;
+  }
+.loader >p {
+    padding-top: 10px;
+}
+.main_card_container_right_bottom__left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.s-g{
+    height: 150px;
+    width: 250px;
+    
+}

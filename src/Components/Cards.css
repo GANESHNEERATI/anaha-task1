@@ -1,0 +1,42 @@
+.cards_Container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card{
+    height: 150px;
+    width: 250px;
+    border:2px solid lightgray;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+
+.card_top{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card_top {
+    margin: 5px 5px;
+}
+.drop_down_content > select{
+ 
+    outline-width: 0;
+    border: none;
+}
+
+.last_card{
+
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 20px 10px;
+   
+}
+
+.left >p{
+    color:#2196F3;
+}
+

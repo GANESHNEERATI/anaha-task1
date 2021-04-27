@@ -1,0 +1,23 @@
+.tabbuttons
+{
+    display:flex;
+}
+
+.tabbuttons > p{
+    padding: 20px;
+   
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    background: rgb(224, 223, 223);
+    width: 100px;
+    text-align: center
+;}
+.tabbuttons > p:nth-child(2)
+{
+    margin-left: 20px;
+}
+.tabbuttons > p:hover{
+    background: #3D5AFE;
+    cursor: pointer;
+    color: white;
+}
